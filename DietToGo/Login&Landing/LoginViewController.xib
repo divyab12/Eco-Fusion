@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="mAssistLbl" destination="eMI-fD-k4P" id="Udu-Y5-jhG"/>
+                <outlet property="mBackSettingBtn" destination="9Bk-gg-QJX" id="imS-fd-dUV"/>
+                <outlet property="mContinueBtn" destination="12" id="17"/>
+                <outlet property="mEmailLbl" destination="aU2-QW-DGT" id="WEG-FU-xlX"/>
+                <outlet property="mImgView" destination="NSB-Fp-D4x" id="KrP-7A-fRW"/>
+                <outlet property="mIndicatorView_" destination="20" id="22"/>
+                <outlet property="mLoginBgImgView" destination="tcU-OT-8BI" id="Pfs-Ov-WQI"/>
+                <outlet property="mLoginBtn" destination="wd1-0x-Lzk" id="1fs-mF-ZWA"/>
+                <outlet property="mLoginLandingView" destination="b4s-aO-GHi" id="A6d-YG-Gbf"/>
+                <outlet property="mLoginWebPageBGImg" destination="9Yv-YC-LBt" id="fVv-pu-r6T"/>
+                <outlet property="mLoginWebPageBackBtn" destination="hqB-wl-4zW" id="H8E-5B-6Ce"/>
+                <outlet property="mLoginWebPageView" destination="p5Y-O5-1u8" id="wUP-6b-fDP"/>
+                <outlet property="mLoginwebPagTitle" destination="k4W-o0-Ugy" id="RdO-kC-oIx"/>
+                <outlet property="mNewUserBtn" destination="mMT-ku-SyR" id="QMf-6T-JpX"/>
+                <outlet property="mPhNumLbl" destination="l4E-Gt-g7x" id="dSN-iV-IuQ"/>
+                <outlet property="mScrollView" destination="nxn-rV-q3u" id="u9e-kJ-ibs"/>
+                <outlet property="mSplashImgView_" destination="19" id="21"/>
+                <outlet property="mTableView" destination="RCK-lS-KuP" id="Pji-2k-7fI"/>
+                <outlet property="mTextLbl" destination="10" id="15"/>
+                <outlet property="mTitleLbl" destination="LPK-C2-LHE" id="ppZ-91-yhP"/>
+                <outlet property="mUserInfoView" destination="8" id="13"/>
+                <outlet property="mWebView" destination="NfO-MJ-xHr" id="wkS-hn-aHM"/>
+                <outlet property="mWelcumLbl" destination="HJO-f5-79G" id="sWj-lT-9QA"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" id="19">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" style="gray" id="20">
+                    <rect key="frame" x="150" y="220" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </activityIndicatorView>
+                <view hidden="YES" contentMode="scaleToFill" id="b4s-aO-GHi">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="tcU-OT-8BI">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HJO-f5-79G">
+                            <rect key="frame" x="20" y="120" width="280" height="125"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">Welcome to EHE&amp;me Robust health and wellness tools that are designed to work hand in hand with you as you work towards a better health</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wd1-0x-Lzk">
+                            <rect key="frame" x="40" y="150" width="238" height="48"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="loginbtn.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="loginAction:" destination="-1" eventType="touchUpInside" id="SGe-QL-XBR"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mMT-ku-SyR">
+                            <rect key="frame" x="41" y="215" width="238" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="New User, Click Here">
+                                <color key="titleColor" red="0.47058823529411764" green="0.61176470588235299" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="newUserAction:" destination="-1" eventType="touchUpInside" id="qlQ-Pg-14C"/>
+                            </connections>
+                        </button>
+                        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you need assistance, please contact us at" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eMI-fD-k4P">
+                            <rect key="frame" x="0.0" y="415" width="320" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="assistance@ehe&amp;me.com" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aU2-QW-DGT" userLabel="Label - assistance@ehe&amp;me.com">
+                            <rect key="frame" x="20" y="435" width="280" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or call at 800-362-8671" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l4E-Gt-g7x" userLabel="Label - assistance@ehe&amp;me.com">
+                            <rect key="frame" x="20" y="455" width="280" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" id="8">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="NSB-Fp-D4x">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LPK-C2-LHE">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9Bk-gg-QJX">
+                            <rect key="frame" x="5" y="17" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <state key="normal" image="prev(orange).png">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backSettingAction:" destination="-1" eventType="touchUpInside" id="K9F-jt-fYA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="12">
+                            <rect key="frame" x="250" y="17" width="60" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                            <state key="normal" image="savebtn.png">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="continueAction:" destination="-1" eventType="touchUpInside" id="18"/>
+                            </connections>
+                        </button>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="nxn-rV-q3u">
+                            <rect key="frame" x="0.0" y="200" width="320" height="128"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please provide your personal information to setup your profile. Note that you can edit your personal information at any time. " lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="10">
+                                    <rect key="frame" x="15" y="0.0" width="290" height="80"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <nil key="highlightedColor"/>
+                                    <string key="userLabel">Label - Please provide your personal information to setup your profile. Note that you can adjust your personal information at any time in the App.</string>
+                                </label>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="1" sectionFooterHeight="1" id="RCK-lS-KuP">
+                                    <rect key="frame" x="0.0" y="100" width="320" height="350"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="separatorColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="9sH-na-JkF"/>
+                                        <outlet property="delegate" destination="-1" id="ij0-K8-1z1"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="p5Y-O5-1u8">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="9Yv-YC-LBt">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k4W-o0-Ugy">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hqB-wl-4zW">
+                            <rect key="frame" x="5" y="17" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <state key="normal" image="prev(orange).png">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backSettingAction:" destination="-1" eventType="touchUpInside" id="93Q-bk-tgW"/>
+                            </connections>
+                        </button>
+                        <webView contentMode="scaleToFill" id="NfO-MJ-xHr">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="LEx-6S-gdK"/>
+                            </connections>
+                        </webView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="loginbtn.png" width="237" height="47"/>
+        <image name="prev(orange).png" width="20" height="20"/>
+        <image name="savebtn.png" width="60" height="30"/>
+    </resources>
+</document>

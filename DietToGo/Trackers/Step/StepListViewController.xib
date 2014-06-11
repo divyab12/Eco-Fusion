@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StepListViewController">
+            <connections>
+                <outlet property="_graphHostingView" destination="1nz-Rx-O0a" id="uVO-0D-vIg"/>
+                <outlet property="m3MonthsBtn" destination="pFr-Vm-rCn" id="vwH-vG-ylF"/>
+                <outlet property="mClickHereBtn" destination="Ppq-m9-Xvw" id="R1T-dz-Aux"/>
+                <outlet property="mGoalStepsLabel" destination="caM-mp-7iO" id="la5-Ep-A61"/>
+                <outlet property="mLastLogLbl" destination="mZE-XX-W6T" id="mCk-kb-gKG"/>
+                <outlet property="mLbsLbl" destination="xVT-Am-Jb2" id="e4g-5n-4W2"/>
+                <outlet property="mLineImgView" destination="f7g-rg-HAi" id="aVY-6R-bGN"/>
+                <outlet property="mLogLbl" destination="Exq-3K-HJd" id="VEq-aB-4F7"/>
+                <outlet property="mMonthBtn" destination="rz7-Q4-AYo" id="Tgb-Ko-Ftb"/>
+                <outlet property="mMsgLbl" destination="Q5P-Cf-cJK" id="N8l-B6-GWP"/>
+                <outlet property="mPedoMeterBtn" destination="nJh-YW-Gy7" id="fjz-NN-fCa"/>
+                <outlet property="mScrolView" destination="pyF-Nx-6zh" id="rJI-Jo-9yz"/>
+                <outlet property="mSetUpGoalLbl" destination="Ai2-Fb-Wqx" id="62D-FO-GnA"/>
+                <outlet property="mTableView" destination="AHa-MH-m3A" id="W28-uW-uDR"/>
+                <outlet property="mTodayBtn" destination="iuo-AY-zaH" id="euc-dk-qJc"/>
+                <outlet property="mTopView" destination="WW4-A7-asi" id="rPT-iu-zaR"/>
+                <outlet property="mWeekBtn" destination="K4E-JG-fXL" id="Be7-Sv-g7h"/>
+                <outlet property="mWeightimgView" destination="Puy-eo-xbi" id="qvU-6g-dBx"/>
+                <outlet property="mWeightlbl" destination="QlT-ss-e7N" id="K3l-NE-PqT"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="pyF-Nx-6zh">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="WW4-A7-asi">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="305"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" id="1nz-Rx-O0a" customClass="CPTGraphHostingView">
+                                    <rect key="frame" x="0.0" y="45" width="320" height="240"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mZE-XX-W6T">
+                                    <rect key="frame" x="0.0" y="25" width="320" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QlT-ss-e7N">
+                                    <rect key="frame" x="150" y="66" width="150" height="40"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="step.png" id="Puy-eo-xbi">
+                                    <rect key="frame" x="110" y="66" width="30" height="37"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Steps Today" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xVT-Am-Jb2">
+                                    <rect key="frame" x="150" y="106" width="101" height="27"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Goal: 12,000 Steps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="caM-mp-7iO">
+                                    <rect key="frame" x="20" y="217" width="280" height="27"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set up Daily Steps Goal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ai2-Fb-Wqx">
+                                    <rect key="frame" x="10" y="177" width="300" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.52549019607843139" green="0.50196078431372548" blue="0.49411764705882355" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ppq-m9-Xvw" customClass="UnderLineButton">
+                                    <rect key="frame" x="110" y="216" width="100" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="Click here">
+                                        <color key="titleColor" red="0.031372549019607843" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="clickHereAction:" destination="-1" eventType="touchUpInside" id="Kx6-IK-tiN"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="iuo-AY-zaH">
+                                    <rect key="frame" x="20" y="270" width="70" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                    <state key="normal" image="stepstodayinactive.png">
+                                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="stepstodayactive.png"/>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="TodayAction:" destination="-1" eventType="touchUpInside" id="jMS-Pb-fHQ"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="K4E-JG-fXL">
+                                    <rect key="frame" x="90" y="270" width="71" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                    <state key="normal" image="stepsweekinactive.png">
+                                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="stepsweekactive.png"/>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="weekAction:" destination="-1" eventType="touchUpInside" id="pmL-P0-swU"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rz7-Q4-AYo">
+                                    <rect key="frame" x="161" y="270" width="70" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                    <state key="normal" image="stepsmonthinactive.png">
+                                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="stepsmonthactive.png"/>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="monthAction:" destination="-1" eventType="touchUpInside" id="Nu9-eO-mGz"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pFr-Vm-rCn">
+                                    <rect key="frame" x="231" y="270" width="70" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                    <state key="normal" image="steps3monthsinactive.png">
+                                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="selected" image="steps3monthsactive.png"/>
+                                    <state key="highlighted">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="MonthsAction:" destination="-1" eventType="touchUpInside" id="uAi-h8-Cvs"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="History logs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Exq-3K-HJd">
+                            <rect key="frame" x="15" y="340" width="290" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="divider1.png" id="f7g-rg-HAi">
+                            <rect key="frame" x="0.0" y="375" width="320" height="1"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="No recent logs available. Click on '+' to report your first log." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q5P-Cf-cJK">
+                            <rect key="frame" x="15" y="386" width="290" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="1" sectionFooterHeight="1" id="AHa-MH-m3A">
+                            <rect key="frame" x="0.0" y="376" width="320" height="369"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="separatorColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="3jB-5g-KSz"/>
+                                <outlet property="delegate" destination="-1" id="OlJ-tx-FXl"/>
+                            </connections>
+                        </tableView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="nJh-YW-Gy7">
+                            <rect key="frame" x="230" y="0.0" width="90" height="90"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="pedometerAction:" destination="-1" eventType="touchUpInside" id="in6-vn-us4"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="divider1.png" width="320" height="1"/>
+        <image name="step.png" width="30" height="37"/>
+        <image name="steps3monthsactive.png" width="85" height="30"/>
+        <image name="steps3monthsinactive.png" width="85" height="30"/>
+        <image name="stepsmonthactive.png" width="69" height="30"/>
+        <image name="stepsmonthinactive.png" width="69" height="30"/>
+        <image name="stepstodayactive.png" width="69" height="30"/>
+        <image name="stepstodayinactive.png" width="69" height="30"/>
+        <image name="stepsweekactive.png" width="71" height="30"/>
+        <image name="stepsweekinactive.png" width="71" height="30"/>
+    </resources>
+</document>

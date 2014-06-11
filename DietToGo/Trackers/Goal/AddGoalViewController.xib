@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddGoalViewController">
+            <connections>
+                <outlet property="mArrowImgView" destination="Fu0-Ma-PMb" id="Lyo-Yk-XYW"/>
+                <outlet property="mBGImgView" destination="2dr-eR-dnA" id="gCw-Sb-WTH"/>
+                <outlet property="mCommentsTxtView" destination="pVw-p1-Fo9" id="55P-tL-nEg"/>
+                <outlet property="mDateLbl" destination="gHe-LH-K1k" id="ndu-jH-h5U"/>
+                <outlet property="mDatetxtLbl" destination="8YR-OP-NIm" id="pKv-yc-1Qc"/>
+                <outlet property="mGoalBtn" destination="qQ8-yw-4WV" id="X3m-2k-QhU"/>
+                <outlet property="mMinusBtn" destination="eDh-bQ-qOf" id="pXD-tt-sVH"/>
+                <outlet property="mPlusBtn" destination="Cid-bO-5Zn" id="81V-an-e5r"/>
+                <outlet property="mScrollView" destination="G45-kd-qDi" id="gXg-oi-1Mf"/>
+                <outlet property="mServingsLbl" destination="xfM-3g-8W3" id="NhH-iv-K9P"/>
+                <outlet property="mStepImgView" destination="ESD-4f-rqM" id="VTn-Ng-4BV"/>
+                <outlet property="mStepLbl" destination="hsD-5X-pON" id="Hx7-N7-8rd"/>
+                <outlet property="mTopGrayImgView" destination="Hww-r8-mVR" id="lKN-6e-Sbd"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" id="Hww-r8-mVR">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.92156862745098034" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goal.png" id="ESD-4f-rqM">
+                    <rect key="frame" x="15" y="16" width="33" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView contentMode="scaleToFill" image="downarrow.png" id="Fu0-Ma-PMb">
+                    <rect key="frame" x="291" y="28" width="14" height="9"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" contentMode="left" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hsD-5X-pON">
+                    <rect key="frame" x="60" y="0.0" width="226" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xZT-37-NCy">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="stepAction:" destination="-1" eventType="touchUpInside" id="ujB-aC-AAv"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mealdivider.png" id="zaa-eX-wt5">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="G45-kd-qDi">
+                    <rect key="frame" x="0.0" y="65" width="320" height="351"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="eDh-bQ-qOf">
+                            <rect key="frame" x="40" y="25" width="40" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" image="minus.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="minuselected.png"/>
+                            <connections>
+                                <action selector="minusAction:" destination="-1" eventType="touchUpInside" id="UU4-uG-3Ou"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="qQ8-yw-4WV">
+                            <rect key="frame" x="80" y="25" width="160" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal" backgroundImage="whitebutton.png">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="disabled">
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="Cid-bO-5Zn">
+                            <rect key="frame" x="240" y="25" width="40" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" image="plus.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" image="plusselected.png"/>
+                            <connections>
+                                <action selector="plusAction:" destination="-1" eventType="touchUpInside" id="R90-CS-ySC"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xfM-3g-8W3">
+                            <rect key="frame" x="0.0" y="90" width="320" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="tablebg.png" id="2dr-eR-dnA">
+                            <rect key="frame" x="15" y="135" width="290" height="219"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gHe-LH-K1k">
+                            <rect key="frame" x="30" y="150" width="42" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8YR-OP-NIm">
+                            <rect key="frame" x="140" y="150" width="150" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="j3h-CA-ski">
+                            <rect key="frame" x="15" y="135" width="290" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="dateAction:" destination="-1" eventType="touchUpInside" id="Ai5-VG-l7W"/>
+                            </connections>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="pVw-p1-Fo9">
+                            <rect key="frame" x="20" y="193" width="280" height="151"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="tMD-cA-usK"/>
+                            </connections>
+                        </textView>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="downarrow.png" width="14" height="8"/>
+        <image name="goal.png" width="33" height="33"/>
+        <image name="mealdivider.png" width="320" height="1"/>
+        <image name="minus.png" width="40" height="55"/>
+        <image name="minuselected.png" width="40" height="55"/>
+        <image name="plus.png" width="40" height="55"/>
+        <image name="plusselected.png" width="40" height="55"/>
+        <image name="tablebg.png" width="290" height="219"/>
+        <image name="whitebutton.png" width="160" height="55"/>
+    </resources>
+</document>

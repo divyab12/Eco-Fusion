@@ -1,0 +1,209 @@
+/* 
+  Localizable.strings
+  ServeItUp
+
+  Created by Value Labs on 06/06/13.
+  Copyright (c) 2013 valuelabs. All rights reserved.
+*/
+
+"WELCOME_USER" = "Welcome user to EHEandme";
+"LOGWEIGHT_DETAILTEXT"="I've been watching what I eat,counting each calorie, and so far I've had success.It's a start.";
+"LOGMEASUREMENT_DETAILTEXT"="\"I lost 2 inches of my Waist\"";
+
+/*
+ * Alertview messages
+ */
+"ALERT_TITLE" ="Alert";//changed the alert as empty string as per Arik suggestion
+"ERROR" ="Error";
+"CONGRATULATIONS_TITLE" = "";
+"NO_RESPONSE" = "Oops! There seem to be an issue, please try again later.";
+"REGISTRATION_SUCCESS_RESPONSE" ="You have successfully completed your registration! ";
+"LOGIN_FAILURE_RESPONSE" = "Invalid User Name or Password.";
+"FORGOTPASSWORD_SUCCESS_RESPONE" = "Instructions have been sent to your email address.";
+"REGISTRATION_COMPLETED" = "You have successfully completed your registration!";
+"KAlertBtnOk" = "OK";
+"AN_ERROR_OCCURED" = "Oops there seem to be an issue. Looks like you have the wrong email or password. Please try again.";//"An error has occurred.";
+"LOGS_ADD_SUCCESS_RESPONSE" = "log added successfully.";
+"LOGS_ADD_FAILURE_RESPONSE" = "Oops! There seem to be an issue, please try again later.";
+"LOGS_UPDATE_SUCCESS_RESPONSE" = "log updated successfully.";
+"LOGS_UPDATE_FAILURE_RESPONSE" = "Oops! There seem to be an issue, please try again later.";
+"LOGS_DELETE_SUCCESS_RESPONSE" = "log deleted successfully.";
+"LOGS_DELETE_FAILURE_RESPONSE" = "Oops! There seem to be an issue, please try again later.";
+"LOG_JOURNAL_ENTRY" = "You must enter a journal entry.";
+"LOG_JOURNAL_CATEGORY" = "Please select journal category.";
+
+/*
+ * Login and registration alert messages
+ */
+"Username" = "Please enter your username.";
+"Password" = "Please enter your password.";
+"PasswordValidation" = "Your password must contain a minimum of 8 characters which include at least one uppercase letter, one lowercase letter and a number.";
+"ConformPassword" = "Please confirm your password.";
+"PasswordNotMatched" = "Your passwords do not match.";
+"FirstName" = "Please enter your first name.";
+"LastName" = "Please enter your last name.";
+"Email" = "Please enter a valid email address.";
+"ZipCode" = "Please enter your zip code.";
+"ValidZipCode" = "Please enter your zip code";
+"DOB" = "Please enter your date of birth.";
+"Gender" = "Please select your gender.";
+
+/*
+ * Log meals alert messages
+ */
+"NO_FAVORITE" = "Currently you do not have any favorites";
+"NO_PRIVATEFOODS" = "Currently you do not have any private foods";
+"NO_CUPBOARD_FOOD" = "Currently you do not have any cupboard products";
+"CHANGEREPORT_REPORTED_SUCCESS_RESPONSE" = "Food reported successfully";
+"CHANGEREPORT_UNREPORTED_SUCCESS_RESPONSE" = "Food unreported successfully";
+
+"CHANGEREPORT_FAILURE_RESPONSE"= "Change reoprt status for the logged food failed";
+"ADD_FAVORITE_SUCCESS" = "Food was added to your favorites.";
+"ADD_FAVORITE_EXECPTION" = "Unable to add additional foods as favorite.";
+"DELETE_FAVORITE_SUCCESS" = "Food removed as favorite.";
+"DELETE_FAVORITE_FAILURE" = "Unable to remove food as favorite, please try again later.";
+"DELETE_LOGFOOD_SUCCESS" = "Food deleted successfully.";
+"DELETE_LOGFOOD_FAILURE" = "Unable to delete food, please try again later.";
+"UPDATE_LOGFOOD_SUCCESS" = "Food quantity updated successfully.";
+"UPDATE_LOGFOOD_FAILURE" = "Unable to edit food, please try again later.";
+"ADD_LOGFOOD_SUCCESS" = "Food added successfully";
+"ADD_LOGFOOD_FAILURE" = "Unable to log food, please try again later.";
+/*
+ * Settings Alert messages
+ */
+"PERSONAL_DETAILS_UPDATE_SUCCESS" = "Personal details saved successfully.";
+"MEAL_DETAILS_UPDATE_SUCCESS" = "Meal plan details saved successfully.";
+"NOTIFICATION_DETAILS_UPDATE_SUCCESS" = "Alert & Notifications saved successfully.";
+
+
+/*
+ * titles of navigation controller
+ */
+"MEASUREMENT_LOGS" = "Measurement Tracker";
+"MEASUREMENT_LOG_EDIT" = "Edit Measurement";
+"MEASUREMENT_LOG_ADD" = "Add Measurement";
+"WATER_ADD" = "Log My Water";
+"LOG_WATER" = "Log Water            ";
+"LOG_WEIGHT_ADD" = "Add Weight";
+"LOG_WEIGHT_EDIT" = "Edit Weight";
+"LOG_WEIGHT_DETAIL" = "Weight Log";
+"LOG_WEIGHT_RECENT_LOGS" = "Log My Weight";
+"LOG_JOURNAL_RECENT_LOGS" = "Log My Journal";
+"LOG_JOURNAL_ADD" = "Add Journal Log";
+"LOG_JOURNAL_EDIT" = "Edit Journal Log";
+"LOG_JOURNAL_DETAIL" = "Journal Log";
+"LOG_EXERCISE_DETAIL" = "Exercise Log";
+"LOG_EXERCISE_RECENT_LOGS" = "Log My Exercise";
+"LOG_EXERCISE_ADD" = "Add Exercise";
+"LOG_EXERCISE_EDIT" = "Edit Exercise Log";
+"ADD_COMMENTS" = "Add comments";
+"LOG_MEASUREMENT_ADD" = "Add Measurements";
+"ADD_JOURNAL" = "Add Journal Entry";
+"DELETE_WEIGHT_LOG" = "Are you sure you wish to delete the weight log?";
+"DELETE_MEASUREMENT_LOG" = "Are you sure you wish to delete the measurement log?";
+"DELETE_EXERCISE_LOG" = "Are you sure you wish to delete the exercise log?";
+"DELETE_GLUCOSE_LOG" = "Are you sure you wish to delete the glucose log?";
+"DELETE_CHOLESTEROL_LOG" = "Are you sure you wish to delete the cholesterol log?";
+"DELETE_BMI_LOG" = "Are you sure you wish to delete the BMI log?";
+"DELETE_Step_LOG" = "Are you sure you wish to delete the step log?";
+"DELETE_Message" = "Are you sure you wish to delete the message?";
+
+"LOG_GLUCOSE_ADD" = "Add Glucose Log";
+"DELETE_JOURNAL_LOG" = "Are you sure you wish to delete the journal log?";
+"LOG_JOURNAL_ADD" = "Add Journal Log";
+"LOG_CHOLESTEROL_ADD" = "Add Cholesterol";
+"LOG_BMI_ADD" = "Add BMI Log";
+
+"MORE" = "More";
+"EXERCISE_CATEGORY" = "Select Exercise";
+"FOOD_DETAIL" = "Food Details";
+"STEP_TRACKER" = "Step Tracker";
+"STEP_ADD" = "Add Steps";
+"GOAL_TRACKER" = "Goal Tracker";
+"DELETE_GOAL_LOG" = "Are you sure you wish to delete the goal?";
+"ADD_GOAL" = "Add Goal";
+/*
+ * strings
+ */
+"SELECT_TIME" = "Select Time";
+"SELECT_DATE" = "Select Date";
+"SELECT_DURATION" = "Select Time Spent";
+"NO_RECORDS_FOUND" = "No results were found. Please change the search.";
+"CrowdSourcing" = "Crowd Sourcing";
+"NO_FAVORITE_RECORDS_FOUND" = "You do not have any favorite foods.";
+"NO_DTGMELAS_RECORDS_FOUND" = "Search to find Diet-to-Go Meals"; //"You do not have any DTG meals added yet.";
+"NO_PRIVATE_RECORDS_FOUND" = "You do not have any private foods added yet.";
+"NO_RECENTLY_RECORDS_FOUND" = "No results available.";
+"NO_SWAP_RECORDS_FOUND" = "Meal replacement is not available for the selected meal time.";
+
+/*
+ * Log Meals
+ */
+"BREAKFAST" = "Breakfast";
+"LUNCH" = "Lunch";
+"DINNER" = "Dinner";
+"SNACKS" = "Snacks";
+"DESSERT" = "Dessert";
+
+/*
+ *Mailcomposer Strings
+ */
+
+"MailNotConfigured" = "Your phone is not currently configured to send mail";
+
+/*
+ *UIImagePicker Strings
+ */
+"CameraNotAvailable" = "Camera is not available";
+"UPLOAD_PHOTO" = "Upload Photo!";
+"TAKE_NEW_PHOTO" = "Take a new photo";
+"UPLOAD_LIBRARY" = "Upload from library";
+
+/*
+ *class Titles
+ */
+"EDIT_HOMEPAGE" = "Edit View";
+"WEIGHT_TRACKER" = "Weight Tracker";
+"CHOLESTEROL_TRACKER" = "Cholesterol Tracker";
+"JOURNAL_TRACKER" = "My Journal";
+"WATER_TRACKER" = "Water Tracker";
+"MEASUREMENT_TRACKER" = "Measurement Tracker";
+"EXERCISE_TRACKER" = "Exercise Tracker";
+"Blood_Glucose_TRACKER" = "Blood Glucose Tracker";
+"BMI_TRACKER" = "BMI Tracker";
+"ADD_FOOD" = "Add Food Item";
+"MEAL_PLAN_SETTINGS" = "Meal Plan Settings";
+"SETTINGS" = "Settings";
+"PERSONAL_SETTINGS" = "Personal Settings";
+"STEP_TRACKER_SETTINGS" = "Step Tracker Settings";
+"NOTIFICATION_SETTINGS" = "Notifications Settings";
+"DAILY_GOALS" = "Daily Goals";
+"MEAL_PLANNER" = "Meal Tracker";
+"SWAP_MEAL" = "Swap Meals";
+"ADD_FOOD_DETAILS" = "Add Food Details";
+"EDIT_FOOD_DETAILS" = "Edit Food Details";
+"CREATE_NEW_FOOD" = "Create New Food";
+"EDIT_SERVING" = "Edit Serving";
+"DISCUSSION_FORUM" = "Discussion Forum";
+"FITBIT_CONNECT" = "Fitbit Connect";
+
+"ACCOUNTMANAGEMENT" = "Account Management";
+"PLANHOLDS" = "Plan Holds";
+"SUPPORTREQUEST" = "Support Request";
+"MENUMANAGEMT" = "Menu Manager";
+
+"WHATS_ON_MIND" = "What's on your mind";
+"INSERT_TITLE" = "Insert title";
+
+"WHATS_ON_MIND_VALIDATION_TEXT" = "Please enter what's on your mind.";
+"INSERT_TITLE_VALIDATION_TEXT" = "Please enter a title.";
+
+"ERROR_ADDTHREAD_TEXT" = "An error occurred while adding a new thread.";
+"SUCCESS_ADDTHREAD_TEXT" = "The thread has been added successfully.";
+
+"ERROR_ADDPOST_TEXT" = "An error occurred while adding a new post.";
+"SUCCESS_ADDPOST_TEXT" = "The post has been added successfully.";
+
+"FITBIT_PIN" = "Please enter valid FitBit PIN";
+
+

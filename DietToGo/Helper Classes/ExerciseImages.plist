@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Aerobics</key>
+	<string>Aerobics.png</string>
+	<key>Baseball</key>
+	<string>Baseball.png</string>
+	<key>Basketball</key>
+	<string>Basketball.png</string>
+	<key>Bicycling</key>
+	<string>Bicycling.png</string>
+	<key>Billiards</key>
+	<string>billiards.png</string>
+	<key>Bowling</key>
+	<string>Bowling.png</string>
+	<key>Boxing</key>
+	<string>Boxing.png</string>
+	<key>Calisthenics (Push/Sit Ups, etc.)</key>
+	<string>Calisthenics.png</string>
+	<key>Cricket</key>
+	<string>Cricket.png</string>
+	<key>Croquet</key>
+	<string>Croquet.png</string>
+	<key>Curling</key>
+	<string>Curling.png</string>
+	<key>Conditioning Exercise</key>
+	<string>Excersise.png</string>
+	<key>Dancing</key>
+	<string>Dancing.png</string>
+	<key>Exercise Machines/Gym</key>
+	<string>Excercise-machine.png</string>
+	<key>Fencing</key>
+	<string>Aerobics.png</string>
+	<key>Football</key>
+	<string>Football.png</string>
+	<key>Frisbee</key>
+	<string>Frisbee.png</string>
+	<key>Golf</key>
+	<string>Golf.png</string>
+	<key>Gymnastics</key>
+	<string>Gymnastics.png</string>
+	<key>Handball</key>
+	<string>Handball.png</string>
+	<key>Hang Gliding</key>
+	<string>Hand-gliding.png</string>
+	<key>Hiking/Outdoors</key>
+	<string>Hiking.png</string>
+	<key>Hockey (Ice/Field)</key>
+	<string>Hockey.png</string>
+	<key>Home_Garden</key>
+	<string>Home-activities.png</string>
+	<key>Horseback Riding</key>
+	<string>Horse-riding.png</string>
+	<key>Home Activites</key>
+	<string>Home-activities.png</string>
+	<key>Home Repair</key>
+	<string>Home-repair.png</string>
+	<key>Jai Alai</key>
+	<string>Jai-alai.png</string>
+	<key>Juggling</key>
+	<string>Juggling.png</string>
+	<key>Jumping Rope</key>
+	<string>Jumping-rope.png</string>
+	<key>Kickball</key>
+	<string>Kick-ball.png</string>
+	<key>Lacrosse</key>
+	<string>Lacrosse.png</string>
+	<key>Lawn and Garden</key>
+	<string>Lawn-Garden.png</string>
+	<key>Martial Arts</key>
+	<string>Aerobics.png</string>
+	<key>More Sports</key>
+	<string>More-sports.png</string>
+	<key>Music</key>
+	<string>Music.png</string>
+	<key>Paddleball</key>
+	<string>Paddleball.png</string>
+	<key>Pilates</key>
+	<string>Aerobics.png</string>
+	<key>Ping Pong</key>
+	<string>Ping-pong.png</string>
+	<key>Polo</key>
+	<string>Polo.png</string>
+	<key>Racketball</key>
+	<string>Racket-ball.png</string>
+	<key>Rock Climbing</key>
+	<string>Rock-climbing.png</string>
+	<key>Rollerblading</key>
+	<string>Roller-bladding.png</string>
+	<key>Rollerskating</key>
+	<string>Roller-skating.png</string>
+	<key>Rowing (Stationary)</key>
+	<string>Rowing.png</string>
+	<key>Rugby</key>
+	<string>Rugby.png</string>
+	<key>Running</key>
+	<string>Running.png</string>
+	<key>Skiing (Snow)</key>
+	<string>Skiing.png</string>
+	<key>Sky Diving</key>
+	<string>Sky-diving.png</string>
+	<key>Soccer</key>
+	<string>Soccer.png</string>
+	<key>Softball</key>
+	<string>softball.png</string>
+	<key>Spinning (Stationary Bike)</key>
+	<string>spinning.png</string>
+	<key>Squash</key>
+	<string>squash.png</string>
+	<key>Swimming</key>
+	<string>swimming.png</string>
+	<key>Sexual Activity</key>
+	<string>sexual-activity.png</string>
+	<key>Sports A-G</key>
+	<string>Baseball.png</string>
+	<key>Sports H-R</key>
+	<string>Handball.png</string>
+	<key>Sports S-Z</key>
+	<string>tae-kawn-do.png</string>
+	<key>Tennis</key>
+	<string>tennis.png</string>
+	<key>Track_Field</key>
+	<string>track_field.png</string>
+	<key>Trampoline</key>
+	<string>trampoline.png</string>
+	<key>Volleyball</key>
+	<string>volleyball.png</string>
+	<key>Walking</key>
+	<string>walking.png</string>
+	<key>Water Activities</key>
+	<string>water-activities.png</string>
+	<key>Winter Activities</key>
+	<string>winter-activity.png</string>
+	<key>Weight Lifting</key>
+	<string>weight-lifting.png</string>
+	<key>Wrestling</key>
+	<string>wrestling.png</string>
+	<key>Yoga</key>
+	<string>yoga.png</string>
+</dict>
+</plist>

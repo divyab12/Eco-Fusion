@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5968CD77-6C3F-4E28-80C6-8FA8DFC1FECF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DietToGo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>69D2FCFF-CBE4-47C7-8E52-3931EAF91738</key>
+		<string>http://svn.valuelabs.net/svn/WellnessLayers/iPhone/EHEandme/Code/EHEandme</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DietToGo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>69D2FCFF-CBE4-47C7-8E52-3931EAF91738</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>69D2FCFF-CBE4-47C7-8E52-3931EAF91738</key>
+		<string>http://svn.valuelabs.net/svn/WellnessLayers</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.valuelabs.net/svn/WellnessLayers/iPhone/EHEandme/Code/EHEandme/DietToGo.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>69D2FCFF-CBE4-47C7-8E52-3931EAF91738</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>69D2FCFF-CBE4-47C7-8E52-3931EAF91738</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DietToGo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

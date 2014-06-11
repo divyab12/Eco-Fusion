@@ -1,0 +1,33 @@
+//
+// Prefix header for all source files of the 'EHEandme' target in the 'EHEandme' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import "UIDevice+Resolutions.h"
+#import "ECSlidingViewController.h"
+#import "AppDelegate.h"
+#import "Constants.h"
+#import "NetworkMonitor.h"
+#import "RequestMethods.h"
+#import "ResponseMethods.h"
+#import "ParserMethods.h"
+#import "DataGetter.h"
+#import "TrackerDataGetter.h"
+#import "MessagesDataGetter.h"
+#import "CommunityDataGetter.h"
+#import "UtilitiesLibrary.h"
+#import "GenricUI.h"
+#import "Utilities.h"
+#import "SettingsViewController.h"
+#import "TrackerCameraGuide.h"
+#import "NSURLRequest+NSURLRequestWithIgnoreSSL.h"
+#endif

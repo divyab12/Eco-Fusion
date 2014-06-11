@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewMessageViewController">
+            <connections>
+                <outlet property="mArrowImgview" destination="svW-sV-Xus" id="GPI-26-4FS"/>
+                <outlet property="mBodyTxtView" destination="4gM-kT-bRx" id="qpy-0i-R4d"/>
+                <outlet property="mImgView1" destination="wDz-6B-Of8" id="eQ7-Q8-c7d"/>
+                <outlet property="mImgView2" destination="1Dc-Jd-r6g" id="Aa9-46-V12"/>
+                <outlet property="mImgView3" destination="Z3W-Hz-TJs" id="btp-yr-Wph"/>
+                <outlet property="mMsgToLbl" destination="4iV-fQ-ap8" id="QFw-oz-kCd"/>
+                <outlet property="mPickerBtn" destination="xz7-mI-zkn" id="DdU-81-cAm"/>
+                <outlet property="mScreenNameLbl" destination="gEe-D7-lqU" id="CQ4-6b-4V0"/>
+                <outlet property="mSubLbl" destination="e88-9r-kbB" id="Whe-WX-qqM"/>
+                <outlet property="mSubTxtFld" destination="VLq-Ja-Bwx" id="KMo-1q-Dec"/>
+                <outlet property="mTypeLbl" destination="gQP-Iy-qy8" id="X38-Rx-zcV"/>
+                <outlet property="mUserNameTxtFld" destination="t3Z-52-NKG" id="Esh-3t-C6t"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider1.png" id="wDz-6B-Of8">
+                    <rect key="frame" x="0.0" y="50" width="320" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message to:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4iV-fQ-ap8">
+                    <rect key="frame" x="15" y="15" width="110" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gQP-Iy-qy8">
+                    <rect key="frame" x="117" y="15" width="172" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" id="xz7-mI-zkn">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="pickerAction:" destination="-1" eventType="touchUpInside" id="axz-Q2-Zrf"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="next(orange).png" id="svW-sV-Xus">
+                    <rect key="frame" x="297" y="18" width="9" height="13"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider2.png" id="1Dc-Jd-r6g">
+                    <rect key="frame" x="0.0" y="100" width="320" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gEe-D7-lqU">
+                    <rect key="frame" x="15" y="65" width="110" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" id="t3Z-52-NKG">
+                    <rect key="frame" x="140" y="65" width="165" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="9TE-V3-mk0"/>
+                    </connections>
+                </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="divider2.png" id="Z3W-Hz-TJs">
+                    <rect key="frame" x="0.0" y="150" width="320" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subject:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e88-9r-kbB">
+                    <rect key="frame" x="15" y="115" width="110" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" id="VLq-Ja-Bwx">
+                    <rect key="frame" x="96" y="115" width="209" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="XxY-Vs-5sA"/>
+                    </connections>
+                </textField>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="4gM-kT-bRx">
+                    <rect key="frame" x="10" y="160" width="300" height="246"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="dM9-YT-NEo"/>
+                    </connections>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="divider1.png" width="320" height="1"/>
+        <image name="divider2.png" width="320" height="1"/>
+        <image name="next(orange).png" width="8" height="13"/>
+    </resources>
+</document>
